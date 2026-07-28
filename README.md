@@ -1,7 +1,8 @@
+<<<<<<< HEAD
 # DevBox
 
 A modern, fast, and beautiful web application that provides essential developer tools in one place. DevBox is designed to be your daily companion for development tasks.
-
+~
 ![DevBox](https://img.shields.io/badge/DevBox-v1.0.0-blue)
 ![React](https://img.shields.io/badge/React-19.2.7-61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.2-3178C6)
@@ -192,3 +193,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 Made with ❤️ by the DevBox team
+=======
+# devbox
+A modern open-source developer toolkit with essential utilities for developers.
+

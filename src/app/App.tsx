@@ -1,8 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MainLayout } from '@/components/layout/MainLayout';
 import { Dashboard } from '@/pages/Dashboard';
-import { JsonFormatter } from '@/pages/JsonFormatter';
-import { JsonValidator } from '@/pages/JsonValidator';
+import { JsonToolkitPage } from '@/tools/json/page';
 import { Base64 } from '@/pages/Base64';
 import { PasswordGenerator } from '@/pages/PasswordGenerator';
 import { UuidGenerator } from '@/pages/UuidGenerator';
@@ -17,8 +16,8 @@ export function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Dashboard />} />
-          <Route path="json-formatter" element={<JsonFormatter />} />
-          <Route path="json-validator" element={<JsonValidator />} />
+          <Route path="json-formatter" element={<JsonToolkitPage />} />
+          <Route path="json-validator" element={<JsonToolkitPage />} />
           <Route path="base64" element={<Base64 />} />
           <Route path="password-generator" element={<PasswordGenerator />} />
           <Route path="uuid-generator" element={<UuidGenerator />} />

@@ -7,7 +7,7 @@ export function Sidebar() {
   const location = useLocation();
 
   const getIcon = (iconName: string) => {
-    const IconComponent = (Icons as any)[iconName];
+    const IconComponent = (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[iconName];
     return IconComponent ? <IconComponent className="h-5 w-5" /> : null;
   };
 
