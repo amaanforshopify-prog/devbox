@@ -39,6 +39,10 @@ export default [
         HTMLHeadingElement: 'readonly',
         KeyboardEvent: 'readonly',
         __dirname: 'readonly',
+        atob: 'readonly',
+        btoa: 'readonly',
+        TextEncoder: 'readonly',
+        TextDecoder: 'readonly',
       },
     },
     plugins: {
